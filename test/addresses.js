@@ -2,7 +2,7 @@
 var sinon = require('sinon');
 var should = require('should');
 var AddressController = require('../lib/addresses');
-var _ = require('loaxe');
+var _ = require('lodash');
 var axecore = require('@axerunners/axecore-lib');
 
 var txinfos = {

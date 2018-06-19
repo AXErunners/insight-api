@@ -4,7 +4,7 @@ var should = require('should');
 var sinon = require('sinon');
 var MessagesController = require('../lib/messages');
 var axecore = require('@axerunners/axecore-lib');
-var _ = require('loaxe');
+var _ = require('lodash');
 
 describe('Messages', function() {
 

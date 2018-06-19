@@ -65,7 +65,7 @@
     "@axerunners/axecore-lib": "^0.15.5",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
-    "loaxe": "=4.17.1",
+    "lodash": "=4.17.1",
     "lru-cache": "^4.0.1",
     "morgan": "^1.7.0",
     "request": "^2.64.0"

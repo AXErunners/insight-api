@@ -4,7 +4,7 @@ var should = require('should');
 var sinon = require('sinon');
 var BlockController = require('../lib/blocks');
 var axecore = require('@axerunners/axecore-lib');
-var _ = require('loaxe');
+var _ = require('lodash');
 
 var blocks = require('./data/blocks.json');
 
