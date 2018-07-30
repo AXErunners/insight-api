@@ -7,16 +7,16 @@
 <div align="center">
   <!-- Stability -->
   <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
-    <img src="https://img.shields.io/badge/stability-stable-green.svg"
+    <img src="https://img.shields.io/badge/stability-stable-green.svg?style=flat-square"
       alt="API stability" />
   </a>
   <!-- Build Status -->
   <a href="https://travis-ci.com/AXErunners/insight-api">
-    <img src="https://img.shields.io/travis/axerunners/insight-api/master.svg" alt="Build Status" />
+    <img src="https://img.shields.io/travis/axerunners/insight-api/master.svg?style=flat-square" alt="Build Status" />
   </a>
   <!-- NPM version -->
   <a href="https://npmjs.org/package/@axerunners/insight-api">
-    <img src="https://img.shields.io/npm/v/@axerunners/insight-api.svg" alt="NPM version" />
+    <img src="https://img.shields.io/npm/v/@axerunners/insight-api.svg?style=flat-square" alt="NPM version" />
   </a>
 </div>
 
@@ -642,7 +642,7 @@ Sample valid output:
         "vin":"e3a6b7878a7e9413898bb379b323c521676f9d460db17ec3bf42d9ac0c9a432f-1",
         "status":"ENABLED",
         "rank":1,
-        "ip":"217.182.229.146:9937",
+        "ip":"217.182.229.146:19937",
         "protocol":70208,
         "payee":"yRuALkPpeYpTgxdNn2L5YgGktASJYDYPAo",
         "activeseconds":158149,
