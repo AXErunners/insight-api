@@ -264,8 +264,7 @@
     "poolName":"BSOD",
     "url":"https://bsod.pw",
     "searchStrings": [
-      "62736f64",
-      "BSOD",
+      "bsod",
       "bsod.pw"
     ]
   },
