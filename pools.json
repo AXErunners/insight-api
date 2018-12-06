@@ -190,10 +190,10 @@
     ]
   },
   {
-    "poolName": "miner",
-    "url": "",
+    "poolName": "simplecoin",
+    "url": "http://simplecoin.us/",
     "searchStrings": [
-      "yiimp"
+      "simplecoin.us ftw"
     ]
   },
   {
