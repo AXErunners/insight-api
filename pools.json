@@ -175,11 +175,11 @@
     ]
   },
   {
-    "poolName": "ozcoin",
-    "url": "https://ozco.in/",
+    "poolName": "ArcPool",
+    "url": "https://arcpool.com/",
     "searchStrings": [
-      "ozco.in",
-      "ozcoin"
+      "ArcPool",
+      "arcpool"
     ]
   },
   {
@@ -261,10 +261,11 @@
     ]
   },
   {
-    "poolName":"AXE.TOP",
-    "url":"http://axe.btc.top/",
-    "searchStrings":[
-      "/AXE.TOP/"
+    "poolName":"BSOD",
+    "url":"https://bsod.pw",
+    "searchStrings": [
+      "BSOD",
+      "bsod.pw"
     ]
   },
   {
