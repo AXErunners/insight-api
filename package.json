@@ -1,7 +1,7 @@
 {
   "name": "@axerunners/insight-api",
   "description": "An AXE blockchain REST and web socket API service for AXEcore Node.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": "git://github.com/axerunners/insight-api.git",
   "contributors": [
     {
