@@ -1,4 +1,4 @@
-insight-api<h1 align="center">Insight-api</h1>
+<h1 align="center">Insight-api</h1>
 
 <div align="center">
   <strong>An AXE blockchain REST and WebSocket API Service</strong>
