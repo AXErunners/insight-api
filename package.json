@@ -1,7 +1,7 @@
 {
   "name": "@axerunners/insight-api",
   "description": "An AXE blockchain REST and WebSocket API Service",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "repository": "git://github.com/axerunners/insight-api.git",
   "contributors": [
     {
@@ -61,7 +61,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "async": "^2.6.1",
-    "@axerunners/axecore-lib": "^0.16.9",
+    "@axerunners/axecore-lib": "^0.17.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
     "lodash": "^4.17.11",
