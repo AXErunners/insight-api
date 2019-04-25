@@ -11,10 +11,10 @@ RUN apk add --update --no-cache \
 WORKDIR /insight
 
 # Copy axecore-node
-RUN git clone --branch master --single-branch --depth 1 https://github.com/axerunners/axecore-node.git /insight
+RUN git clone --branch master --single-branch --depth 1 https://github.com/axerunners/axecore-node.git .
 
 # Copy config file
-COPY ./axecore-node.json /insight/axecore-node.json
+COPY axecore-node.json .
 
 ARG VERSION
 
@@ -22,15 +22,18 @@ ARG VERSION
 RUN npm ci
 
 # Install Insight API module
-RUN /insight/bin/axecore-node install @axerunners/insight-api@${VERSION}
+RUN bin/axecore-node install @axerunners/insight-api@${VERSION}
 
 FROM node:8-alpine
 
 LABEL maintainer="AXErunners <info@axerunners.com>"
 LABEL description="Dockerized Insight API"
 
-COPY --from=0 /insight/ /insight
+WORKDIR /insight
+
+# Copy project files
+COPY --from=0 /insight/ .
 
 EXPOSE 3001
 
-CMD ["/insight/bin/axecore-node", "start"]
+CMD ["bin/axecore-node", "start"]
