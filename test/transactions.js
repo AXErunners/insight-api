@@ -1036,7 +1036,7 @@ describe('Transactions', function() {
             '7e8B2XYGfYjXUo4tQaj4EBzDev7vcLvDct': 45000
           },
           {
-            'XcCmQ2XmvALfp4cD4zFqd3ganwMwkQqQJ5': 1993504
+            'PA76ikGj1NcGdxgPZBG9SQy4aLx8v41rvx': 1993504
           }
         ],
         'isRBF': false
