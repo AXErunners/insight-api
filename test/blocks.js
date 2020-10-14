@@ -114,7 +114,7 @@ describe('Blocks', function() {
       'reward': '3.88010204',
       'isMainChain': true,
       'poolInfo': { 
-        'poolName': 'Node Stratum Pool',
+        'poolName': 'NOMP',
         'url': 'https://github.com/zone117x/node-stratum-pool'
       }
     };
